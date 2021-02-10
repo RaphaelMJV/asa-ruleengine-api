@@ -1,0 +1,22 @@
+logging:
+  level:
+    br:
+      com:
+        santander: DEBUG
+    org:
+      apache:
+        cxf: ERROR
+      springframework: ERROR
+server:
+  servlet:
+    context-path: /ruleengine
+#  port: 8084    
+    
+spring:
+  application:
+    name: asa-ruleengine-api
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/portal_auto_servicos
+    username: postgres
+    password: postgre
